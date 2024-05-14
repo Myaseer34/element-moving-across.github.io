@@ -1,0 +1,42 @@
+/* Importing font family */
+@import url("https://fonts.cdnfonts.com/css/budokan-rounded");
+
+/* Removing additional css from browsers */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Adding bg color & centering the content */
+body {
+  background: #101013;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+}
+
+/* Placing truck at bottom left part of screen */
+#truck {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 400px;
+}
+
+/* Styling the button */
+button {
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.7),
+    -5px -5px 10px rgba(255, 255, 255, 0.05);
+  background: #232323;
+
+  padding: 0.5em 2em;
+  font-size: 2rem;
+  font-family: "budokan rounded";
+  color: #fff;
+  cursor: pointer;
+}
